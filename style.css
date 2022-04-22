@@ -1,0 +1,97 @@
+header{
+    background-color: #897f9eea;
+    color: #FFFFFF;
+    position: relative; 
+    margin: auto;
+    font-size: calc(1vw+0.7em);
+    }
+    #shapka{
+        background-color:  #897f9eea;
+        border: 3px solid #000000;
+    }
+    body{
+        background-image: url(img/flowers.jpg);
+        background-size: cover;
+    }
+    a{
+        color: #0a021fea;
+    }
+    .fon1{ 
+        width: 70%; 
+        margin: auto;
+        background-color: #d6c1db;
+        border: 2px solid #000000;
+
+    }
+    .fon{
+        width: 50%; 
+        margin: auto;
+        background-color: #d6c1db;
+        border: 2px solid #000000;
+    }
+    
+    .chet
+    { 
+        background-color: #291850c2; 
+        color:#e4dede;
+    }
+    .nechet
+    { 
+        background-color: #FFFFFF; 
+        color: #000000;
+    }
+    th,td {
+        text-align: center;
+        border: 1px solid #000000;
+        padding: 5px;
+    }
+    .form-group{
+        padding-left:35px;
+    }
+    .pole{
+        width: 650px;
+    }
+    #form1{
+        padding-left: 40%;
+    }
+    .btn{
+        margin-top: 10px;
+        margin-bottom: 35px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 320px;
+    }
+    .error {
+        border: 2px solid red;
+      }
+    .messages {
+        margin-bottom: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: auto;
+        text-align: center;
+        background-color: rgb(10, 195, 19);
+    }
+    /* login */
+#login:hover, #send:active {
+    background-color: white;
+    color: black;
+}
+#login:active {
+    transform: scale(.97);
+    transition: transform .2s;
+}
+
+.enter-exit {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    transition: transform .2s;
+    padding: 0.5rem 2.5rem;
+    display: inline-block;
+    background-color: aliceblue;
+    border-radius: 3px;
+}
+.enter-exit:hover {
+    background-color: cornflowerblue;
+}
