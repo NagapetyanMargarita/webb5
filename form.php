@@ -8,7 +8,7 @@
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
    <!-- Bootstrap Bundle JS (jsDelivr CDN) -->
    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-   <title>Задание 4</title>
+   <title>Задание 5</title>
    <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
@@ -41,8 +41,8 @@
 </div>
 <br>
 <div class="form-group">
-    <legend for="date"class="pole" style="color: black;">Дата рождения:</legend>
-      <input type="date" id="date" size="3" name="date" <?php if ($errors['date']) {print 'class="pole error"';} else print 'class="pole"';?> value="<?php print $values['date']; ?>">
+    <legend for="year"class="pole" style="color: black;">Дата рождения:</legend>
+      <input type="date" id="year" size="3" name="year" <?php if ($errors['year']) {print 'class="pole error"';} else print 'class="pole"';?> value="<?php print $values['year']; ?>">
       </div>
       <br>
       <fieldset class="form-group">
